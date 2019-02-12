@@ -6,9 +6,9 @@
 </template>
 
 <script>
-  export default {
+export default {
   name: 'Skills',
-  data() {
+  data () {
     return {
       their_name: this.$route.params.name
     }
