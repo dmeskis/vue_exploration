@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello page">
     <div class='holder'>
 
       <form @submit.prevent="addSkill">
