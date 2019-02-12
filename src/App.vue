@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/directives">Directives</router-link>
     </nav>
     <transition name="router-anim" enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutDown">
       <router-view/>
