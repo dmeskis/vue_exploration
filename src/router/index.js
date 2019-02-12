@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Skills from '@/components/Skills'
 import About from '@/components/About'
 
+// @ is an alias of src
 Vue.use(Router)
 
 export default new Router({
@@ -13,7 +14,7 @@ export default new Router({
       component: Skills
     },
     {
-      path: '/about/:name',
+      path: '/about',
       name: 'about',
       component: About
     }
